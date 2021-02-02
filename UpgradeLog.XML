@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="orGenta">
+</Property><Property Name="Solution File" Value="C:\Users\jchapman\Desktop\orgSource\orGenta.sln">
+</Property><Property Name="User Options File" Value="C:\Users\jchapman\Desktop\orgSource\orGenta.suo">
+</Property><Property Name="Date" Value="Wednesday, September 04, 2013">
+</Property><Property Name="Time" Value="7:11 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="orGenta.sln" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\orGenta.sln">
+</Event><Event ErrorLevel="0" Project="" Source="orGenta.suo" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\orGenta.suo">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="orGenta.csproj" Description="Project file successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\orGenta.csproj">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="orGenta.csproj.user" Description="Project user file successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\orGenta.csproj.user">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="About.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\About.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="AdvancedPrint.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\AdvancedPrint.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="CalendarForm.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\CalendarForm.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="CatAssignForm.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\CatAssignForm.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="FieldSelector.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\FieldSelector.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ImportStatus.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ImportStatus.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ItemDelete.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ItemDelete.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ItemImportStatus.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ItemImportStatus.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ItemsDataSet.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ItemsDataSet.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="MinimalIntface.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\MinimalIntface.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="NoteDataEntry.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\NoteDataEntry.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="NotesToItemPrefs.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\NotesToItemPrefs.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="PleaseReg.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\PleaseReg.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="RegisterEntry.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\RegisterEntry.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ViewForm.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ViewForm.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="WebImportForm.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\WebImportForm.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ZoomedItem.cs" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ZoomedItem.cs">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ItemsDataSet.xsx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ItemsDataSet.xsx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="App.ico" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ItemsDataSet.xsd" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ItemsDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="About.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\About.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="AdvancedPrint.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\AdvancedPrint.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="CalendarForm.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\CalendarForm.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="CatAssignForm.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\CatAssignForm.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="FieldSelector.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\FieldSelector.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ImportStatus.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ImportStatus.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ItemDelete.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ItemDelete.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ItemImportStatus.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ItemImportStatus.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="MinimalIntface.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\MinimalIntface.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="NoteDataEntry.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\NoteDataEntry.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="NotesToItemPrefs.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\NotesToItemPrefs.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="PleaseReg.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\PleaseReg.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="RegisterEntry.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\RegisterEntry.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ViewForm.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ViewForm.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="WebImportForm.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\WebImportForm.resx">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="ZoomedItem.resx" Description="File successfully backed up as C:\Users\jchapman\Desktop\orgSource\v7\Backup\ZoomedItem.resx">
+</Event><Event ErrorLevel="1" Project="orGenta" Source="orGenta.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="orGenta.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="orGenta" Source="orGenta.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="orGenta.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="orGenta.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="orGenta" Source="orGenta.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

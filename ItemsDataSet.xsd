@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ItemsDataSet" targetNamespace="http://www.tempuri.org/ItemsDataSet.xsd" xmlns:mstns="http://www.tempuri.org/ItemsDataSet.xsd" xmlns="http://www.tempuri.org/ItemsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ItemsDataSet" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Items">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemKey" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="HasNote" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TextItem" type="xs:string" minOccurs="0" />
+              <xs:element name="WhenDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Done" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DoneDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Priority" type="xs:short" minOccurs="0" />
+              <xs:element name="WorkPhone" type="xs:string" minOccurs="0" />
+              <xs:element name="CellPhone" type="xs:string" minOccurs="0" />
+              <xs:element name="HomePhone" type="xs:string" minOccurs="0" />
+              <xs:element name="eMail" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="EnteredDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Link" type="xs:string" minOccurs="0" />
+              <xs:element name="Recurrence" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Items" />
+      <xs:field xpath="mstns:ItemKey" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

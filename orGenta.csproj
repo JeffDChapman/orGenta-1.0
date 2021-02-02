@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B892DC5-2BB0-4CB0-AD0D-85B4452760CD}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>orGenta</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>orGenta</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>orGenta.ViewForm</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>BasicCorrectnessRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatAssignForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemImportStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MinimalIntface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoteDataEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotesToItemPrefs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orGentaResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>orGentaResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PleaseReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm_Common.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm_FormInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm_Menus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZoomedItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Content Include="App.ico" />
+    <Content Include="ItemsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemsDataSet.Designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvancedPrint.resx">
+      <DependentUpon>AdvancedPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalendarForm.resx">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatAssignForm.resx">
+      <DependentUpon>CatAssignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FieldSelector.resx">
+      <DependentUpon>FieldSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportStatus.resx">
+      <DependentUpon>ImportStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemDelete.resx">
+      <DependentUpon>ItemDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemImportStatus.resx">
+      <DependentUpon>ItemImportStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinimalIntface.resx">
+      <DependentUpon>MinimalIntface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoteDataEntry.resx">
+      <DependentUpon>NoteDataEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotesToItemPrefs.resx">
+      <DependentUpon>NotesToItemPrefs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orGentaResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>orGentaResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PleaseReg.resx">
+      <DependentUpon>PleaseReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterEntry.resx">
+      <DependentUpon>RegisterEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm.resx">
+      <DependentUpon>ViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebImportForm.resx">
+      <DependentUpon>WebImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZoomedItem.resx">
+      <DependentUpon>ZoomedItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ItemsDataSet.xsx">
+      <DependentUpon>ItemsDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

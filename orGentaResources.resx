@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About orGenta</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>Add Category</value>
+  </data>
+  <data name="CalendarTitle" xml:space="preserve">
+    <value>orGenta Calendar</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CategoriesTitle" xml:space="preserve">
+    <value>Check Categories ...</value>
+  </data>
+  <data name="Categorizing" xml:space="preserve">
+    <value>Categorizing New Items ...</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Confirming" xml:space="preserve">
+    <value>Confirming . . .</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="ConvChoicePrompt" xml:space="preserve">
+    <value>Select how you would like the notes converted:</value>
+  </data>
+  <data name="ConvsnDescriptive" xml:space="preserve">
+    <value>This utility converts the notes on the currently visible items, changing them into their own items.  The original items will still retain their notes too.</value>
+  </data>
+  <data name="CopyrightNotice" xml:space="preserve">
+    <value>orGenta   ;Organizing software for gentlemen;Copyright (c)2005, 2006 J.D. Chapman;All Rights Reserved</value>
+  </data>
+  <data name="DeleteCat" xml:space="preserve">
+    <value>Delete category "</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Discard Item Completely</value>
+  </data>
+  <data name="DisposeTitle" xml:space="preserve">
+    <value>Remove or Discard?</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="EntryPrompt" xml:space="preserve">
+    <value>--&gt; Enter a new Item, or a single word to Search</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="FieldsTitle" xml:space="preserve">
+    <value>Select Fields . . .</value>
+  </data>
+  <data name="FreezeClosed" xml:space="preserve">
+    <value>Freeze Closed</value>
+  </data>
+  <data name="hdrAddress" xml:space="preserve">
+    <value>Mailing Address</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrCellPhone" xml:space="preserve">
+    <value>Cell Ph#</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrDone" xml:space="preserve">
+    <value>Done</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrEmail" xml:space="preserve">
+    <value>e-Mail Address</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrEntered" xml:space="preserve">
+    <value>Entered</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrFinished" xml:space="preserve">
+    <value>Finished</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrHomePhone" xml:space="preserve">
+    <value>Home Ph#</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrItem" xml:space="preserve">
+    <value>Item</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrKey" xml:space="preserve">
+    <value>Row</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrNote" xml:space="preserve">
+    <value>Note</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrPriority" xml:space="preserve">
+    <value>Prty</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrWhen" xml:space="preserve">
+    <value>When</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrWorkPhone" xml:space="preserve">
+    <value>Work Ph#</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="hdrWww" xml:space="preserve">
+    <value>Internet Link</value>
+    <comment>GridView Column</comment>
+  </data>
+  <data name="HideDone" xml:space="preserve">
+    <value>Hide Done</value>
+  </data>
+  <data name="IconCredit" xml:space="preserve">
+    <value>Icons by</value>
+  </data>
+  <data name="Importing" xml:space="preserve">
+    <value>Importing Items ...</value>
+  </data>
+  <data name="KeyPrompt" xml:space="preserve">
+    <value>orGenta;Organizing software for gentlemen;;Thank you for registering orGenta! Please enter the registration key that you obtained in e-Mail below:</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading . . .</value>
+  </data>
+  <data name="N2Ititle" xml:space="preserve">
+    <value>Preferences for Notes to Items</value>
+  </data>
+  <data name="NotePrompt" xml:space="preserve">
+    <value>Enter Note text here . . .</value>
+  </data>
+  <data name="NoteTitle" xml:space="preserve">
+    <value>Note Data</value>
+  </data>
+  <data name="OpenUnfrozen" xml:space="preserve">
+    <value>Open Unfrozen</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="PerParagraph" xml:space="preserve">
+    <value>One Item per paragraph</value>
+  </data>
+  <data name="PerSentence" xml:space="preserve">
+    <value>One Item per sentence</value>
+  </data>
+  <data name="PleaseRegister" xml:space="preserve">
+    <value>Please Register</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="PrintOptions" xml:space="preserve">
+    <value>orGenta Printing Options</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="RegistrationMail" xml:space="preserve">
+    <value>Registration Mail</value>
+  </data>
+  <data name="RegistrationNotice" xml:space="preserve">
+    <value>orGenta;Organizing software for gentlemen;;orGenta is shareware!  We encourage you to share this software with your friends, but we also would like you to register!;;Registration costs U.S. $10;;To register please send an e-Mail with your Software ID (listed below, or click on the "Registration Mail" button).</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove Item from Category</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Resume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Saving Database ...</value>
+  </data>
+  <data name="SearchPrompt" xml:space="preserve">
+    <value>Search For:</value>
+  </data>
+  <data name="ShowDone" xml:space="preserve">
+    <value>Show Done</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="UseFirst" xml:space="preserve">
+    <value>First sentence in the pargraph becomes the item</value>
+  </data>
+  <data name="UseLast" xml:space="preserve">
+    <value>Last sentence in the pargraph becomes the item</value>
+  </data>
+  <data name="CommaSep" xml:space="preserve">
+    <value>Comma Separated Files|*.csv</value>
+  </data>
+  <data name="ImportItemPrompt" xml:space="preserve">
+    <value>Select Item Import File</value>
+  </data>
+  <data name="mnuAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="mnuAdvancedPrint" xml:space="preserve">
+    <value>Advanced Print</value>
+  </data>
+  <data name="mnuAssign" xml:space="preserve">
+    <value>Assign To...</value>
+  </data>
+  <data name="mnuCalendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="mnuCleanup" xml:space="preserve">
+    <value>Cleanup Items</value>
+  </data>
+  <data name="mnuCollapseAll" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="mnuCollapseNode" xml:space="preserve">
+    <value>Collapse Node</value>
+  </data>
+  <data name="mnuColorReset" xml:space="preserve">
+    <value>Color Reset</value>
+  </data>
+  <data name="mnuDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="mnuDropCats" xml:space="preserve">
+    <value>Drop Categories</value>
+  </data>
+  <data name="mnuEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="mnuExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="mnuExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="mnuExpandNode" xml:space="preserve">
+    <value>Expand Node</value>
+  </data>
+  <data name="mnuExpandThis" xml:space="preserve">
+    <value>Expand Only This</value>
+  </data>
+  <data name="mnuExportCSV" xml:space="preserve">
+    <value>Export CSV</value>
+  </data>
+  <data name="SelectExportFile" xml:space="preserve">
+    <value>Type or Select File to Export to ...</value>
+  </data>
+  <data name="TextAndAllFiles" xml:space="preserve">
+    <value>Text Files|*.txt|All Files|*.*</value>
+  </data>
+  <data name="mnuExportTabbed" xml:space="preserve">
+    <value>Export Tabbed</value>
+  </data>
+  <data name="mnuFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="mnuFindCategory" xml:space="preserve">
+    <value>Find Category</value>
+  </data>
+  <data name="mnuFindItem" xml:space="preserve">
+    <value>Find Item</value>
+  </data>
+  <data name="mnuFindNext" xml:space="preserve">
+    <value>Find Next</value>
+  </data>
+  <data name="mnuFindNote" xml:space="preserve">
+    <value>Find Note</value>
+  </data>
+  <data name="mnuFreezeClosed" xml:space="preserve">
+    <value>Freeze Closed</value>
+  </data>
+  <data name="mnuHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="mnuImportItems" xml:space="preserve">
+    <value>Import Items</value>
+  </data>
+  <data name="mnuImportWeb" xml:space="preserve">
+    <value>Import Web...</value>
+  </data>
+  <data name="mnuItemPrint" xml:space="preserve">
+    <value>Item Print</value>
+  </data>
+  <data name="mnuNotesToItems" xml:space="preserve">
+    <value>Notes To Items</value>
+  </data>
+  <data name="mnuOccursAgain" xml:space="preserve">
+    <value>Occurs Again</value>
+  </data>
+  <data name="mnuPagePrint" xml:space="preserve">
+    <value>Page Print</value>
+  </data>
+  <data name="mnuPrinterSetup" xml:space="preserve">
+    <value>Printer Setup...</value>
+  </data>
+  <data name="mnuPrintItem" xml:space="preserve">
+    <value>Print Item</value>
+  </data>
+  <data name="mnuResetWidths" xml:space="preserve">
+    <value>Reset Widths</value>
+  </data>
+  <data name="mnuShowDone" xml:space="preserve">
+    <value>Show Done</value>
+  </data>
+  <data name="mnuSortCategories" xml:space="preserve">
+    <value>Sort Categories</value>
+  </data>
+  <data name="mnuSortItems" xml:space="preserve">
+    <value>Sort Items</value>
+  </data>
+  <data name="mnuTools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="mnuTrayed" xml:space="preserve">
+    <value>Trayed Mode</value>
+  </data>
+  <data name="mnuView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>orGenta is already running</value>
+  </data>
+  <data name="errSelectItems" xml:space="preserve">
+    <value>Please select Item rows to assign first...</value>
+  </data>
+  <data name="mnuZoomItem" xml:space="preserve">
+    <value>Zoom Item</value>
+  </data>
+  <data name="RegistrationRequired" xml:space="preserve">
+    <value>Registration Required</value>
+  </data>
+  <data name="BadRegistration" xml:space="preserve">
+    <value>Incorrect registration number entered</value>
+  </data>
+  <data name="CleanupWarning" xml:space="preserve">
+    <value>This utility synchronizes your Category view;with the items in the orGenta database;and removes duplicate items . . .;Is it okay to proceed?</value>
+  </data>
+  <data name="DropCatWarning" xml:space="preserve">
+    <value>Hey! This will remove ALL the categories except the starting;seeds and and leave your items in the Unassigned category!;Is it okay to proceed?</value>
+  </data>
+  <data name="errSelectItemsV2" xml:space="preserve">
+    <value>Please select an Item row first...</value>
+  </data>
+  <data name="ImportCompleted" xml:space="preserve">
+    <value>Import Completed</value>
+  </data>
+  <data name="NoMoreRepeats" xml:space="preserve">
+    <value>No More Repeats Found</value>
+  </data>
+  <data name="RegistrationFailure" xml:space="preserve">
+    <value>Technical registration failure: </value>
+  </data>
+  <data name="TabbedText" xml:space="preserve">
+    <value>Tabbed Text File|*.txt</value>
+  </data>
+  <data name="ThanksRegistered" xml:space="preserve">
+    <value>Thank You, your software is registered!</value>
+  </data>
+  <data name="chgInternal" xml:space="preserve">
+    <value>Change to Internal Links</value>
+  </data>
+  <data name="dbVsnErr" xml:space="preserve">
+    <value>Error: dB is not current!</value>
+  </data>
+  <data name="DescrMeta" xml:space="preserve">
+    <value>Description on Page's META Tag</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Not Found</value>
+  </data>
+  <data name="scanAlpha" xml:space="preserve">
+    <value>(scanning from this page alphabetically starting with:)</value>
+  </data>
+  <data name="TrayedPrompt" xml:space="preserve">
+    <value>--&gt; Enter a new Item, or a single word to Search</value>
+  </data>
+  <data name="FirstLine" xml:space="preserve">
+    <value>First Text Line of the Page</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ImportLabel" xml:space="preserve">
+    <value>For imported Item text, use:</value>
+  </data>
+  <data name="LeaveLinks" xml:space="preserve">
+    <value>Leave as Web Links</value>
+  </data>
+  <data name="LinkDepth" xml:space="preserve">
+    <value>Follow links through how many levels:</value>
+  </data>
+  <data name="OnLinksLabel" xml:space="preserve">
+    <value>On Links to Imported Pages:</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Timeout (secs):</value>
+  </data>
+  <data name="WebAddrPrompt" xml:space="preserve">
+    <value>Type or Paste Web Address:</value>
+  </data>
+  <data name="gridEntryPrompt" xml:space="preserve">
+    <value>Click and Type new item here</value>
+  </data>
+</root>
